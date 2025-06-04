@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: url(43822096-corcho-vacío-textura-de-fondo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.content {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717 ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #FFB6C1 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #575252 ;
+}
+
+.album {
+    font-size: 40px; /* Tamaño grande del texto */
+    font-weight: bold; /* Hace que el texto sea más fuerte */
+    text-decoration: underline; /* Subrayado */
+    text-decoration-thickness: 2px; /* Grosor del subrayado */
+    display: block;
+    padding: 20px;
+    color: #FFB6C1 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60;
+    text-align: center;
+    background: fixed;
+    background-color: #575252;
+    padding-bottom: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.textotit {
+    display: block;
+    margin: 0 auto; /* Centra el bloque */
+    background-color: #575252;
+    color: #FFB6C1;
+    width: fit-content;
+    padding: 5px; /* Reduce el espacio superior e inferior */
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foto {
+    text-align: center;
+    width: 200px; /* Ajusta el tamaño del contenedor */
+}
+
+.foto img {
+    width: 100%;
+     /* Bordes redondeados */
+}
+
+.tituliño {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #FFB6C1;
+}
