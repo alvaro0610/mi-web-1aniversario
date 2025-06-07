@@ -1,3 +1,6 @@
+@media screen and (max-width: 600px) {
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -46,7 +49,7 @@ body {
 }
 
 .navbar a {
-    display: block;
+    display: flex;
     padding: 23px 20px;
     color: #FFB6C1 ;
     text-decoration: none;
@@ -192,23 +195,9 @@ p {
 
 
 
-@media (max-width: 768px) {
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-
-    }
-    .sau {
-        height: 120vh;
-
-    }
-    .navbar{
-        display: none;
-    }
- 
-}
-
 .title2 {
     font-size: 40px;
     color: white;
+}
+
 }
