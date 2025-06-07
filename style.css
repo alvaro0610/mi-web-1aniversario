@@ -33,6 +33,9 @@ body {
 .navbar {
     display: flex;
     margin-right: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
 
 }
 
