@@ -1,3 +1,7 @@
+@media screen and (max-width: 600px) {
+
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -120,4 +124,7 @@ body {
     margin-bottom: 10px;
     font-size: 16px;
     color: #FFB6C1;
+}
+
+
 }
