@@ -1,7 +1,3 @@
-@media screen and (max-width: 600px) {
-
-
-
 
 *{
     margin: 0%;
@@ -172,7 +168,4 @@ body {
 .spotify {
 
     margin-top: 20px;
-}
-
-
 }

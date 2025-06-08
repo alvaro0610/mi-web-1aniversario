@@ -17,8 +17,95 @@ body {
 
 }
 
+.btn:hover {
+    background: none;
+}
 
-@media screen and (max-width: 768px) {
+.btn-home {
+    display: flex;
+
+}
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #171717;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #171717;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 5);
+    margin: 2rem;
+
+
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #171717;
+    background: #FFB6C1;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+
+}
+
+.box-container.box h3 {
+    font-size: 20px;
+    color: #FFB6C1;
+
+}
+
+.box-container.box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about {
+    background: #171717;
+    
+}
+
+.price {
+    background: url(IMG_20250104_164017.jpg)no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0%;
+
+}
+
+
 
 .head {
     display: flex;
@@ -120,95 +207,9 @@ p {
     color: white;
 }
 
-}
-
-.btn:hover {
-    background: none;
-}
-
-.btn-home {
-    display: flex;
-
-}
-.btn-home a{
-    margin: 0 10px;
-}
-
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.sau {
-    padding: 30px;
-    background: #171717;
-}
-
-.box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.box-container .box {
-    height: 11rem;
-    width: 17rem;
-    background: #171717;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 5);
-    margin: 2rem;
 
 
-}
 
-.box-container .box i{
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #171717;
-    background: #FFB6C1;
-    font-size: 2rem;
-    margin: 1rem 0;
-
-
-}
-
-.box-container.box h3 {
-    font-size: 20px;
-    color: #FFB6C1;
-
-}
-
-.box-container.box p {
-    font-size: 16px;
-    padding: 0 15px;
-}
-
-.about {
-    background: #171717;
-    
-}
-
-.price {
-    background: url(IMG_20250104_164017.jpg)no-repeat center;
-    background-attachment: fixed;
-    text-align: center;
-    background-size: cover;
-}
-
-.contact {
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0%;
-
-}
 
 
 
