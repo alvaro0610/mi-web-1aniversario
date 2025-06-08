@@ -39,6 +39,17 @@ body {
 
 }
 
+.navbar a {
+    display: flex;
+    padding: 23px 20px;
+    color: #FFB6C1 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+}
+
 .logo{
     margin-left: 30px;
 }
@@ -51,14 +62,7 @@ body {
     
 }
 
-.navbar a {
-    display: flex;
-    padding: 23px 20px;
-    color: #FFB6C1 ;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
+
 
 .navbar a:hover {
     background: #575252 ;
@@ -203,4 +207,3 @@ p {
     color: white;
 }
 
-}
